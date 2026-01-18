@@ -17,7 +17,7 @@ public class EvaluationService {
 
     public EvaluationService(RuleService ruleService) {
         this.ruleService = ruleService;
-        this.engine = new ScriptEngineManager().getEngineByName("JavaScript");
+        this.engine = new ScriptEngineManager().getEngineByName("js");
     }
 
     public List<Transaction> evaluate(List<Transaction> transactions) {
