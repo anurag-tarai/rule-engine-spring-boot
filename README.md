@@ -8,11 +8,12 @@ A Spring Boot backend project implementing a simple rule engine for evaluating t
 - Maven
 
 ## Project Structure
+```
 src/main/java/com/leadicon/ruleengine
 ├── controller
 ├── model
 ├── service
-
+```
 ## How to Run
 ```bash
 mvn clean install
